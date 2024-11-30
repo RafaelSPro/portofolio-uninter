@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+
+li {
+    padding: 30px;
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+li a:hover {
+    font-size: 23px;
+    color: blueviolet;
+}
+
+/* Design das minhas formações */
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill__titulo{
+    padding-bottom: 15px;
+    padding-right: 25px ;
+}
+
+.skill__minhas {
+    margin-top: 15px;
+}
+
+.formacoes {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.minhas__formacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacoes__titulo{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.descomplica{
+    background-color: white;
+    width: 368px;
+    height: 268px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descomplica__img{
+    width: 350px;
+    height: 480px;
+}
+
+.descomplica__titulo{
+    padding-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descomplica__descricao{
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+} 
+
+.cursos{
+    padding-left: 60px;
+}
+
+.alura{
+    background-color: white;
+    width: 368px;
+    height: 268px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alura__titulo{
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.alura__descricao{
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 500;
+}

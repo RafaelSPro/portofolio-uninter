@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white ;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+
+li {
+    padding: 30px;
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+li a:hover {
+    font-size: 23px;
+    color: blueviolet;
+}
+
+/* design de alguns dos meus projetos */
+
+.experiencias__titulo{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 33px;
+    padding: 30px 0;
+}
+
+.experiencia__cripto{
+    display: flex;
+    margin: 10px 0 30px 100px;
+
+}
+
+.cripto__img{
+    width: 600px;
+}
+
+.cripto__descricao{
+    padding: 90px 0 0 80px;
+}
+
+.experiencia__forca{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 120px 30px 0 ;
+}
+
+.forca__img{
+    width: 600px;
+}
+
+.forca__descricao{
+    padding: 60px 100px 0 0;
+}
+
+.projeto__titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.projeto__texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.repositorio{
+    background-color: #f5f5f5 ;
+    padding: 12px 10px 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 80px;
+    color: #2a7ae4;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-decoration: none;
+
+    
+}
+
+.demo{
+    background-color: #2A7AE4;
+    padding: 12px 10px 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    text-decoration: none;
+}

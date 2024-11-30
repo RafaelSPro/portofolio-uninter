@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white ;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+}
+
+li {
+    padding: 30px;
+    margin: auto;
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+}
+
+li a:hover {
+    font-size: 23px;
+    color: blueviolet;
+}
+
+/*  Parte do css que vai arrumar meu sobre
+*/
+
+.pessoal {
+    margin-top: 30px;
+}
+.pessoal__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.pessoal__foto--rafael {
+    width: 90px;
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+.pessoal__meu {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.pessoal__formacao {
+    width: 50%;
+    padding-top: 30px;
+    line-height: 25px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.sobre__descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sobre__mim {
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+/* meus hobbies */
+
+.hobbies {
+    width: 100%;
+    padding-bottom: 40px;
+}
+.hobbies__titulo {
+    text-align: center;
+    padding: 70px 0 80px 0;
+    color: #464646;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px ;
+    
+}
+
+.hobbies__pessoais {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.hobbies__meus{
+    background-color: #FFFF;
+    height: 148px ;
+    width: 140px;
+   
+}
+
+.hobbies__img{
+    position: relative;
+    top: 60% ;
+    left: 20% ;
+}
+
+.hobbies__nome{
+    position: relative;
+    top: 55%;
+    left: 19%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
